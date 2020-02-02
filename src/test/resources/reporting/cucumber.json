@@ -1,0 +1,59 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Verifying the login page invalid crendential",
+        "description": "",
+        "id": "veriying-the-facebook-details;verifying-the-login-page-invalid-crendential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11189947927,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is on facebook page",
+            "match": {
+              "location": "loginPage.user_is_on_facebook_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 568278565,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enter the username and password",
+            "match": {
+              "location": "loginPage.user_enter_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1298067395,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click the login button",
+            "match": {
+              "location": "loginPage.user_click_the_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Veriying the facebook details",
+    "description": "",
+    "id": "veriying-the-facebook-details",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/sample.feature",
+    "tags": []
+  }
+]
